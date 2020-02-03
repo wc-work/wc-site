@@ -33,7 +33,11 @@ node_modules/
 .bashrc
 .cloud-locale-test.skip
 .digitalocean_password
+<<<<<<< HEAD
 docker-compose.yml
+=======
+site.yml
+>>>>>>> 27cbc533c1b3ef751463acf7e27a0c98c34fa5cd
 # large/disallowed file types
 .mp4
 .pdf

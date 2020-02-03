@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 === Logbook ===
 Contributors: miyauchi, tarosky
 Tags: log, event, security
