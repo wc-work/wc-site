@@ -60,11 +60,6 @@ body {
   background-color: #EBBC4E;
 }
 
-.container-fluid {
-  display: flex;
-  height: 20rem;
-}
-
 .banner {
   position: relative;
   margin: 0;
@@ -75,6 +70,26 @@ body {
   position: relative;
   z-index: 1;
   width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    display: flex;
+    height: 20rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .container-fluid {
+    display: flex;
+    height: 50rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    display: flex;
+    height: 65rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
