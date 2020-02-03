@@ -45,8 +45,8 @@ wp_home: ''     # Path to the WP_HOME like "wp"
 # WordPress User
 #
 admin_user: admin
-admin_pass: admin
-admin_email: faith.gkw.wp@gmail.com
+admin_pass: gkw-wp-700+
+admin_email: info.gkw.wp@gmail.com
 
 #
 # WordPress Database
