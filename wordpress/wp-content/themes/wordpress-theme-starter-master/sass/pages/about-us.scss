@@ -1,0 +1,23 @@
+body {
+    font-family: $font-family-base;
+    background-color: $font-yellow;
+}
+
+
+.container-fluid {
+    display: flex;
+    height: 20rem;
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width:100%;
+      img {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+      }   
+}
+

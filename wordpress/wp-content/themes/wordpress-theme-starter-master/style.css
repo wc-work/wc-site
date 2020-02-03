@@ -1,5 +1,5 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
@@ -55,10 +55,26 @@ html {
  * partials/footer
  * ---
  */
-.footer {
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #EBBC4E;
+}
+
+.container-fluid {
+  display: flex;
+  height: 20rem;
+}
+
+.banner {
+  position: relative;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 200px;
-  background-color: tomato;
+}
+.banner img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
