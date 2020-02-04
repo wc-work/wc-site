@@ -4,6 +4,63 @@
  * Main `sass` file. Import here `sass` files
  */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/**
+ * modules/mixins
+ * ---
+ */
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/**
+ * partials/header
+ * ---
+ */
+/**
+ * partials/footer
+ * ---
+ */
+/**
+ * style.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -66,6 +123,7 @@ body {
   padding: 0;
   width: 100%;
 }
+
 .banner img {
   position: relative;
   z-index: 1;
@@ -95,6 +153,7 @@ body {
   background-color: white;
   align-content: center;
 }
+
 @media only screen and (max-width: 600px) {
   .box {
     margin: 15px;
@@ -113,19 +172,20 @@ body {
     height: 15rem;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .grid {
     position: relative;
   }
+
   .grid .grid-temp {
     display: grid;
     position: relative;
-    grid-template-columns: 8rem auto 8rem;
-    grid-template-rows: 8rem;
+    grid-template-columns: 6rem auto 6rem;
+    grid-template-rows: 2rem 4rem 2rem;
     height: 100%;
     width: 100%;
   }
+
   .grid .picback img {
     position: relative;
     display: block;
@@ -133,19 +193,22 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
   .grid .item1 {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/span 2;
     margin: 0;
   }
+
   .grid .item2 {
     grid-column: 1/span 3;
     grid-row: 1;
     margin: 0;
   }
+
   .grid .item3 {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2/span 2;
     margin: 0;
   }
 }
@@ -153,14 +216,16 @@ body {
   .grid {
     position: relative;
   }
+
   .grid .grid-temp {
     display: grid;
     position: relative;
-    grid-template-columns: 12rem auto 12rem;
-    grid-template-rows: 11rem;
+    grid-template-columns: 8rem auto 8rem;
+    grid-template-rows: 3rem 5rem 3rem;
     height: 100%;
     width: 100%;
   }
+
   .grid .picback img {
     position: relative;
     display: block;
@@ -168,19 +233,22 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
   .grid .item1 {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/span 2;
     margin: 0;
   }
+
   .grid .item2 {
     grid-column: 1/span 3;
     grid-row: 1;
     margin: 0;
   }
+
   .grid .item3 {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2/span 2;
     margin: 0;
   }
 }
@@ -188,6 +256,7 @@ body {
   .grid {
     position: relative;
   }
+
   .grid .grid-temp {
     display: grid;
     position: relative;
@@ -196,6 +265,7 @@ body {
     height: 100%;
     width: 100%;
   }
+
   .grid .picback img {
     position: relative;
     display: block;
@@ -203,16 +273,19 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
   .grid .item1 {
     grid-column: 1;
     grid-row: 1/span 2;
     margin: 0;
   }
+
   .grid .item2 {
     grid-column: 1/span 3;
-    grid-row: 1/span 3;
+    grid-row: 1;
     margin: 0;
   }
+
   .grid .item3 {
     grid-column: 3;
     grid-row: 2/span 2;
@@ -229,6 +302,7 @@ body {
     text-align: center;
     background: transparent;
   }
+
   .quotation p {
     line-height: 2rem;
     font-size: 2rem;
@@ -243,6 +317,7 @@ body {
     color: #5DA3B2;
     text-align: center;
   }
+
   .quotation p {
     line-height: 4rem;
     font-size: 4rem;
@@ -257,6 +332,7 @@ body {
     color: #5DA3B2;
     text-align: center;
   }
+
   .quotation p {
     line-height: 6rem;
     font-size: 6rem;
@@ -273,9 +349,11 @@ body {
   margin: 0;
   width: 100%;
 }
+
 .banner .carousel-item {
   height: 100%;
 }
+
 .banner .carousel-caption {
   position: absolute;
   z-index: 1;
@@ -285,22 +363,27 @@ body {
   text-align: center;
   color: #5DA3B2;
 }
+
 .banner .carousel-caption h1 {
   font-size: 8rem;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 8rem;
 }
+
 .banner .carousel-caption h2 {
   font-size: 4rem;
   font-weight: 600;
   line-height: 4rem;
 }
+
 .banner .carousel-caption h3 {
   color: #EBBC4E;
   font-size: 2rem;
   font-weight: 300;
   line-height: 2rem;
 }
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
