@@ -207,4 +207,48 @@ body {
         }
     }
 }
+  
+.carousel {
+    height: 22rem;
+    background-color: white;
+    max-width: 100vw;
+}
 
+#crumbs {
+    background-image: url(http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png);
+}
+
+.banner {
+    position: relative;
+    margin: 0;
+    width:100%;
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-caption {
+      position: absolute;
+      z-index: 1;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      text-align: center;
+      color: $font-blue;
+      h1 {
+        font-size: 8rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 8rem;
+      }
+      h2 {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 4rem;
+      }
+      h3 {
+          color: $font-yellow;
+          font-size: 2rem;
+          font-weight: 300;
+          line-height: 2rem;
+      }
+    }
+}

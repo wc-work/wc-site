@@ -32,6 +32,38 @@ get_header(); ?>
                 </div>
             </div>      
         </section>
+        <section>
+            <div id="demo" class="carousel slide container-fluid banner" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+                        <div class="carousel-caption">
+                            <h1><strong>H</strong> A T</h1>
+                            <h2><strong>Helpful</strong></h2>
+                            <h3>We are a click, text, call, drive <br> away, and always ready to help.</h3>
+                        </div> 
+  					</div>
+  					<div class="carousel-item">
+                        <div class="carousel-caption">
+                            <h1>H <strong>A</strong> T</h1>
+                            <h2><strong>Authentic</strong></h2>
+                            <h3>We work to showcase the best, <br> unique you in the digital world.</h3>
+                        </div> 
+  					</div>
+					<div class="carousel-item">
+                        <div class="carousel-caption">
+                            <h1>H A <strong>T</strong></h1>
+                            <h2><strong>Transparent</strong></h2>
+                            <h3>We believe in a relationship <br> with honest communication.</h3>
+                        </div> 
+  					</div>
+				</div>
+			</div>
+        </section>
 
 	</main>
 
