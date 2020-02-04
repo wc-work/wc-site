@@ -11,15 +11,17 @@
 
 <div class="row">
     <div class="col-sm">
-    <?php echo get_theme_file_uri('/images/bread.jpg'); ?>
+    <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/location-solid.png">
        <h2> 2721 Ventura St, Fresno, CA 93721 </h2>
     </div>
 
     <div class="col-sm">
+    <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png">
         <h2> info.gkw.wp@gmail.com </h2>
     </div>
 
     <div class="col-sm">
+    <img class="icons" src="<?php bloginfo('template_url');?>/img/icons/phone.png">
         <h2> ###-###-####</h2>
     </div>
 
