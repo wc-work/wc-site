@@ -91,5 +91,33 @@ body {
     height: 65rem;
   }
 }
+.box {
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .box {
+    margin: 15px;
+    height: 8rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .box {
+    margin: 20px;
+    height: 11rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .box {
+    margin: 25px;
+    height: 15rem;
+  }
+}
+.box .quotation {
+  font-size: 25px;
+  font-style: italic;
+  color: #5DA3B2;
+}
 
 /*# sourceMappingURL=style.css.map */
