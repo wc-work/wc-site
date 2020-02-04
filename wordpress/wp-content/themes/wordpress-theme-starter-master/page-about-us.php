@@ -33,11 +33,14 @@ get_header(); ?>
             </div>      
         </section>
         <section>
-            <div id="demo" class="carousel slide container-fluid banner" data-ride="carousel">
+            <div id="crumbs" class="carousel slide container-fluid banner" data-ride="carousel">
             <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#crumbs" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#crumbs" data-slide-to="1">
+                </li>
+                <li data-target="#crumbs" data-slide-to="2">
+                </li>
             </ul>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
