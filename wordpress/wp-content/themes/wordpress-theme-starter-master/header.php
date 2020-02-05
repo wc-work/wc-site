@@ -21,6 +21,7 @@
 					tests: {}
 			});
 		</script>
+		<script src="https://kit.fontawesome.com/92ab37b888.js" crossorigin="anonymous"></script>
 
 	</head>
 	<body <?php body_class(); ?>>
@@ -30,7 +31,43 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-			
+			<nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">WebCrumbs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <!-- <span class="navbar-toggler-icon"></span> -->
+		  <span class="navbar-toggler-icon">   
+    <i class="fa fa-navicon" style="color:#fff; font-size:28px;"></i>
+</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav pull-right ml-auto mr-5 mt-2">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Process</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          </ul>
+        </div>
+	  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<!-- logo -->
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>">

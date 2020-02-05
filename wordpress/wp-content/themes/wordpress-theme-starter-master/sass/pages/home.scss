@@ -1,1 +1,45 @@
 //Empty scss in anticpation for page-home.php
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+// NAVBAR
+nav{
+    background-color: $font-blue;
+    height: 6.25rem;
+    color: $font-yellow;
+    font-size: $font-size-base;
+    
+}
+.navbar-toggler{
+    border: none;
+}
+a:link{
+    text-decoration: none;
+    color: $font-yellow;
+}
+a:hover{
+    color: $font-white;
+}
+.nav-item{
+    padding: 20px;
+}
+
+a.nav-link{
+    color: $font-yellow;
+}
+.nav-link:hover{
+    color: $font-white;
+}
+.navbar-brand{
+    font-size: $font-size-base;
+}
+
+.navbar-toggler-icon{
+    height:auto;
+    width: auto;
+}
