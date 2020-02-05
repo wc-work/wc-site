@@ -267,17 +267,22 @@
    position: relative;
    margin: 0;
    width: 100%;
-   height: 22rem;
+   height: 24rem;
    background-color: white;
    max-width: 100vw;
    .carousel-indicators {
     list-style: none;
+    bottom: -3px;
+    margin: 0;
+    width: 100%;
   }
   .carousel-indicators li, .carousel-indicators li.active {
     width: 3rem;
     height: 3rem;
     position: relative;
-    margin: 10px;           
+    margin: 10px;       
+    border-radius: 0;  
+    border: none; 
   }
   .carousel-indicators img {
     position: absolute;
