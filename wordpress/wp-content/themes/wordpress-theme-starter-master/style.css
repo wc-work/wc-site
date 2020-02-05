@@ -61,4 +61,25 @@ html {
   background-color: tomato;
 }
 
+/**
+ * pages/contact-us
+ * ---
+ */
+.container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+.icons {
+  width: 6rem;
+  height: 6rem;
+}
+
+.item-a {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
+
 /*# sourceMappingURL=style.css.map */
