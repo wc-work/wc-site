@@ -17,7 +17,7 @@ get_header(); ?>
                     <div class="grid-temp">
                         <div class="item1">
                             <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation.png">
+                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-left-quotation-01.png">
                             </picture>
                         </div>
                         <div class="quotation item2">
@@ -25,7 +25,7 @@ get_header(); ?>
                         </div>
                         <div class="item3">
                             <picture class="picback">
-                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-right-quotation.png">
+                                <img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-right-quotation-01-01.png">
                             </picture>
                         </div>
                     </div>          
@@ -33,15 +33,15 @@ get_header(); ?>
             </div>      
         </section>
         <section>
-            <div id="crumbs" class="carousel slide container-fluid banner" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#crumbs" data-slide-to="0" class="active">
+            <div id="crumbs" class="carousel slide container-fluid" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#crumbs" data-slide-to="0" class="active"><img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
                 </li>
-                <li data-target="#crumbs" data-slide-to="1">
+                <li data-target="#crumbs" data-slide-to="1"><img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
                 </li>
-                <li data-target="#crumbs" data-slide-to="2">
+                <li data-target="#crumbs" data-slide-to="2"><img src="http://webcrumbs.site/wp-content/uploads/2020/02/webcrumbs-single-crumb-one-01.png" alt="crumbs-indicator">
                 </li>
-            </ul>
+            </ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
                         <div class="carousel-caption">
