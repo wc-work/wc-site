@@ -45,22 +45,22 @@ get_header(); ?>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
                         <div class="carousel-caption">
-                            <h1><strong>H</strong> A T</h1>
-                            <h2><strong>Helpful</strong></h2>
+                            <h1>H <a style="opacity: 30%"> A T</a></h1>
+                            <h2>Helpful</h2>
                             <h3>We are a click, text, call, drive <br> away, and always ready to help.</h3>
                         </div> 
   					</div>
   					<div class="carousel-item">
                         <div class="carousel-caption">
-                            <h1>H <strong>A</strong> T</h1>
-                            <h2><strong>Authentic</strong></h2>
+                            <h1><a style="opacity: 30%">H</a> A <a style="opacity: 30%">T</a></h1>
+                            <h2>Authentic</h2>
                             <h3>We work to showcase the best, <br> unique you in the digital world.</h3>
                         </div> 
   					</div>
 					<div class="carousel-item">
                         <div class="carousel-caption">
-                            <h1>H A <strong>T</strong></h1>
-                            <h2><strong>Transparent</strong></h2>
+                            <h1><a style="opacity: 30%">H A</a> T</h1>
+                            <h2>Transparent</h2>
                             <h3>We believe in a relationship <br> with honest communication.</h3>
                         </div> 
   					</div>

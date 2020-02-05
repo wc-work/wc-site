@@ -284,6 +284,12 @@
     border-radius: 0;  
     border: none; 
   }
+  .carousel-indicators li img {
+    opacity: 30%;
+  }
+  .carousel-indicators li.active img {
+    opacity: 80%;
+  }
   .carousel-indicators img {
     position: absolute;
     width: 100%;
