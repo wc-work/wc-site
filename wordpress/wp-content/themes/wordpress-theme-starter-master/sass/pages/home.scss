@@ -8,9 +8,10 @@ body{
 }
 
 // NAVBAR
+
 nav{
     background-color: $font-blue;
-    height: 6.25rem;
+    height: 8rem;
     color: $font-yellow;
     font-size: $font-size-base;
     
@@ -35,11 +36,21 @@ a.nav-link{
 .nav-link:hover{
     color: $font-white;
 }
-.navbar-brand{
-    font-size: $font-size-base;
+.logo{
+    width: 20rem;
+    height: 100%;
+    
 }
 
 .navbar-toggler-icon{
     height:auto;
     width: auto;
+}
+.navcrumb{
+    height: 2rem;
+    width: 2rem;
+    margin-top: .8rem;
+}
+.navbar-collapse{
+    background-color: $font-blue;
 }
