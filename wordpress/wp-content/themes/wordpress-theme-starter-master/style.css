@@ -65,21 +65,15 @@ html {
  * pages/contact-us
  * ---
  */
-.container {
+.box {
+  display: grid;
   grid-template-columns: 40px 50px auto 50px 40px;
-  grid-template-rows: 25% 100px auto;
+  grid-template-rows: 10px auto 10px;
 }
 
 .icons {
   width: 6rem;
   height: 6rem;
-}
-
-.item-a {
-  grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: row1-start;
-  grid-row-end: 3;
 }
 
 /*# sourceMappingURL=style.css.map */
