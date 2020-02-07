@@ -65,10 +65,8 @@ html {
  * pages/contact-us
  * ---
  */
-.box {
-  display: grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-  grid-template-rows: 10px auto 10px;
+.col-sm-8 {
+  padding-top: 10vh;
 }
 
 .icons {

@@ -2,19 +2,9 @@
  * pages/contact-us
  * ---
  */
-.box{
-    display: grid;
-    grid-template-columns: 40px 60px auto 60px 40px;
-    grid-template-rows: 10px auto 10px;
+.col-sm-8{
+    padding-top: 10vh;
 }
-
-.item-1{
-    grid-column-start: 2;
-    grid-column-end: three;
-    grid-row-start: row2-start;
-    grid-row-end: 3;
-}
-
 
  .icons{
      width: 6rem;
