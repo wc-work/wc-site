@@ -50,7 +50,11 @@
         </div>
     </div><!-- end row -->  
 
-    <button type="button" class="btn btn-primary btn-lg" type="submit" value="Submit" >Submit </button>
+    <div class="row">
+        <div class="col-sm-4 d-flex justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg">Send Ideas</button>
+        </div>
+    </div> <!-- end row -->
 
 </div><!--end container-->
 
