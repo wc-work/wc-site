@@ -195,8 +195,8 @@ body {
     background: transparent;
   }
   .quotation p {
-    line-height: 2rem;
-    font-size: 2rem;
+    line-height: 1.7rem;
+    font-size: 1.7rem;
   }
 
   .carousel {
@@ -260,7 +260,7 @@ body {
     color: #EBBC4E;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 2rem;
+    line-height: 2.15rem;
   }
 
   .button-container {
@@ -408,7 +408,7 @@ body {
     color: #EBBC4E;
     font-size: 4rem;
     font-weight: 300;
-    line-height: 4rem;
+    line-height: 4.25rem;
   }
 
   .button-container {
@@ -491,8 +491,8 @@ body {
     text-align: center;
   }
   .quotation p {
-    line-height: 5rem;
-    font-size: 5rem;
+    line-height: 4.5rem;
+    font-size: 4.5rem;
   }
 
   .carousel {
@@ -550,13 +550,13 @@ body {
   .carousel .carousel-caption h2 {
     font-size: 8rem;
     font-weight: 600;
-    line-height: 8.5rem;
+    line-height: 9rem;
   }
   .carousel .carousel-caption h3 {
     color: #EBBC4E;
     font-size: 5.5rem;
     font-weight: 300;
-    line-height: 5.5rem;
+    line-height: 5.75rem;
   }
 
   .button-container {
