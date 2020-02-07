@@ -19,10 +19,10 @@ nav{
 .navbar-toggler{
     border: none;
 }
-a:link{
-    text-decoration: none;
-    color: $font-yellow;
-}
+// a.nav-link{
+//     text-decoration: none;
+//     color: $font-yellow;
+// }
 a:hover{
     color: $font-white;
 }
@@ -58,18 +58,39 @@ a.nav-link{
 // FOOTER
 .grey{
     background-color: $font-black;
-    height: 9rem;
+    height: 13rem;
   }
   .blue{
     background-color: $font-blue;
-    height: 7rem;
+    height: 10rem;
   }
-  .toast{
+  .footer-logo{
     height: 7rem;
       
   }
   .subscribe{
     color: $font-yellow;
-    margin-left: 6rem;
-    font-size: $font-size-base;
+    font-size: 2rem;
   }
+  .blue{
+      color: $font-white;
+  }
+  .footertext{
+      font-size: $font-size-base;
+      margin-top: 3rem;
+  }
+  .social-media{
+      margin-left:3rem;
+      margin-top: 3rem;
+  }
+.social-media a{
+    color: white;
+}
+#insta{
+      margin-left: 13rem;
+  }
+
+// VIDEO
+.mov{
+    overflow: hidden;
+}

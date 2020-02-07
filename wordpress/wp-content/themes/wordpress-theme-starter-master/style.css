@@ -77,11 +77,6 @@ nav {
   border: none;
 }
 
-a:link {
-  text-decoration: none;
-  color: #EBBC4E;
-}
-
 a:hover {
   color: #FDF8E1;
 }
@@ -120,22 +115,47 @@ a.nav-link {
 
 .grey {
   background-color: #2C2C2C;
-  height: 9rem;
+  height: 13rem;
 }
 
 .blue {
   background-color: #5DA3B2;
-  height: 7rem;
+  height: 10rem;
 }
 
-.toast {
+.footer-logo {
   height: 7rem;
 }
 
 .subscribe {
   color: #EBBC4E;
-  margin-left: 6rem;
+  font-size: 2rem;
+}
+
+.blue {
+  color: #FDF8E1;
+}
+
+.footertext {
   font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.social-media {
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.social-media a {
+  color: white;
+}
+
+#insta {
+  margin-left: 13rem;
+}
+
+.mov {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

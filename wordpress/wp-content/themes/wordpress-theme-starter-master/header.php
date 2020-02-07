@@ -25,7 +25,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-
+	
 		<!-- wrapper -->
 		<div class="wrapper">
 

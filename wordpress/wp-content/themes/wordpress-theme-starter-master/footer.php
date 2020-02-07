@@ -2,17 +2,49 @@
 			<footer class="grey">
 			<div class="row">
 			
-  				<div class="col-md-4 col-sm-4 col-xs-4 d-flex flex-row">
-    				<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="toast mt-3 ml-5">
-					<p class="subscribe mt-3">Subscribe to our blog:</p>
+  				<div class="col-4 d-flex flex-row">
+    				<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5">
+					
   				</div>
+				  <div class="col-4">
+				  <p class="subscribe mt-5 text-center">Subscribe to our blog:</p>
+				  	<form action="#" class="">
+						<!-- <input type="text" placeholder= "Enter your email..."> -->
+						<input class="form-control" type="text" placeholder="Enter your email...">
+				  	</form>
+				  </div>
+				  <div class="col-4">
+				  
+				  </div>
  			
 					 
 			</footer>
 			<footer class="blue row">
-				<div class="d-flex flex-row">
-				<p>	&copy; 2020 Webcrumbs <br> All rights reserved.</p>
-				<i class="fab fa-instagram"></i>
+				<div class="col-3 d-flex flex-row">
+				<p class="footertext ml-5">	&copy; 2020 Webcrumbs <br> All rights reserved.</p>
+				</div>
+				<div class="col-6">
+				
+					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en">
+						<i class="fab fa-instagram fa-5x social-media" id="insta"></i> 
+					</a>
+				
+				
+					<a href="https://www.facebook.com/WebCrumbs.dev/">
+						<i class="fab fa-facebook fa-5x social-media"></i>
+					</a>
+				</i>
+				
+					<a href="https://twitter.com/WebCrumbsDev">
+						<i class="fab fa-twitter fa-5x social-media"></i>
+					</a>
+				</i>
+				<a href="https://www.linkedin.com/">
+					<i class="fab fa-linkedin fa-5x social-media"></i>
+				</a>
+				</div>
+				<div class="col-3">
+					<p class="footertext ml-5">WebCrumbs 2721 Ventura St <br> Suite 201 Fresno, Ca 93721</p>
 				</div>
 			</footer>
 	
