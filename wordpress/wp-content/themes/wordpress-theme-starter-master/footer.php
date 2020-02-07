@@ -1,17 +1,21 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
-
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPresssssssss</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blanket</a>.
-				</p>
-				<!-- /copyright -->
-
+			<footer class="grey">
+			<div class="row">
+			
+  				<div class="col-md-4 col-sm-4 col-xs-4 d-flex flex-row">
+    				<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="toast mt-3 ml-5">
+					<p class="subscribe mt-3">Subscribe to our blog:</p>
+  				</div>
+ 			
+					 
 			</footer>
-			<!-- /footer -->
-
-		</div>
+			<footer class="blue row">
+				<div class="d-flex flex-row">
+				<p>	&copy; 2020 Webcrumbs <br> All rights reserved.</p>
+				<i class="fab fa-instagram"></i>
+				</div>
+			</footer>
+	
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>

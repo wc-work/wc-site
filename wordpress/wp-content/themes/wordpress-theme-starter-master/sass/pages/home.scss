@@ -54,3 +54,22 @@ a.nav-link{
 .navbar-collapse{
     background-color: $font-blue;
 }
+
+// FOOTER
+.grey{
+    background-color: $font-black;
+    height: 9rem;
+  }
+  .blue{
+    background-color: $font-blue;
+    height: 7rem;
+  }
+  .toast{
+    height: 7rem;
+      
+  }
+  .subscribe{
+    color: $font-yellow;
+    margin-left: 6rem;
+    font-size: $font-size-base;
+  }

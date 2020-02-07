@@ -118,4 +118,24 @@ a.nav-link {
   background-color: #5DA3B2;
 }
 
+.grey {
+  background-color: #2C2C2C;
+  height: 9rem;
+}
+
+.blue {
+  background-color: #5DA3B2;
+  height: 7rem;
+}
+
+.toast {
+  height: 7rem;
+}
+
+.subscribe {
+  color: #EBBC4E;
+  margin-left: 6rem;
+  font-size: 1.6rem;
+}
+
 /*# sourceMappingURL=style.css.map */
