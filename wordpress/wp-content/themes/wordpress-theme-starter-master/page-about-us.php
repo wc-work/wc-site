@@ -69,7 +69,7 @@ get_header(); ?>
         </section>
         <section>
             <div class="button-container container-fluid">
-                <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca"> Book A Meeting</a>
+                <a class="button" href="https://square.site/book/GDH2KVERNEFSC/webcrumbs-fresno-ca" data-toggle="tooltip" title="Hooray!"> Book A Meeting</a>
             </div>
         </section>
 
