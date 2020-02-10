@@ -19,7 +19,7 @@
  			
 					 
 			</footer>
-			<footer class="blue row">
+			<!-- <footer class="blue row">
 				<div class="col-3 d-flex flex-row">
 				<p class="footertext ml-5">	&copy; 2020 Webcrumbs <br> All rights reserved.</p>
 				</div>
@@ -46,8 +46,85 @@
 				<div class="col-3">
 					<p class="footertext ml-5">WebCrumbs 2721 Ventura St <br> Suite 201 Fresno, Ca 93721</p>
 				</div>
+			</footer> -->
+
+			<footer>
+			<div class="container-fluid blue d-flex">
+				<div class="row">
+					<div class="col-xs">
+						<p class="footertext ml-5">	&copy; 2020 Webcrumbs <br> All rights reserved.</p>
+					</div>
+				</div>
+					<div class="col-xs">
+					<a href="https://www.instagram.com/webcrumbs.dev/?hl=en">
+						<i class="fab fa-instagram fa-5x social-media" id="insta"></i> 
+					</a>
+				
+				
+					<a href="https://www.facebook.com/WebCrumbs.dev/">
+						<i class="fab fa-facebook fa-5x social-media"></i>
+					</a>
+				</i>
+				
+					<a href="https://twitter.com/WebCrumbsDev">
+						<i class="fab fa-twitter fa-5x social-media"></i>
+					</a>
+				</i>
+				<a href="https://www.linkedin.com/">
+					<i class="fab fa-linkedin fa-5x social-media"></i>
+				</a>
+				</div>
+
+				<div class="col-xs">
+					<p class="footertext ml-5">WebCrumbs 2721 Ventura St <br> Suite 201 Fresno, Ca 93721</p>
+				</div>
+					</div>
+			
 			</footer>
 	
+
+
+<!-- <footer>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-12 py-5">
+		<div class="mb-5 flex-center">
+		<a href="https://www.instagram.com/webcrumbs.dev/?hl=en">
+						<i class="fab fa-instagram fa-5x social-media" id="insta"></i> 
+					</a>
+				
+				
+					<a href="https://www.facebook.com/WebCrumbs.dev/">
+						<i class="fab fa-facebook fa-5x social-media"></i>
+					</a>
+				</i>
+				
+					<a href="https://twitter.com/WebCrumbsDev">
+						<i class="fab fa-twitter fa-5x social-media"></i>
+					</a>
+				</i>
+				<a href="https://www.linkedin.com/">
+					<i class="fab fa-linkedin fa-5x social-media"></i>
+				</a>
+				</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>
