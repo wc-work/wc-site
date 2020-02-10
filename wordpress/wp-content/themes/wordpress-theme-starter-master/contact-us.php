@@ -1,61 +1,38 @@
-<?php 
+<?php
 /*
  * Template Name: ContactPage
  * Template Post Type: page
  */
- get_header(); ?>
+get_header(); ?>
 
 
-<!--Contact Info Row-->
-<div class="container-fluid">
+<!--Contact Info Rows-->
 
-    <div class="row">
-
-        <div class="col-sm-8 d-flex justify-content-center"> 
-             <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/location-solid.png">
-        </div>  
-
-        <div class="col-sm-4 d-flex justify-content-center">  
-            <h2> 2721 Ventura St, Fresno, CA 93721 </h2>
-        </div>       
-    </div><!-- end row -->
+<!-- icon-text-container is to help align the icons and text together -->
+<div class="icon-text-container"> 
+    <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/location-solid.png">
+    <h2> 2721 Ventura St, Fresno, CA 93721 </h2>
+</div>
 
 
-    <div class="row">
+<div class="icon-text-container">
+    <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png">
+    <h2> info.gkw.wp@gmail.com </h2>
+</div>
 
-        <div class="col-sm-8 d-flex justify-content-center">
-            <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/email.png">
-        </div>
-        
-        <div class="col-sm-4 d-flex justify-content-center">
-                <h2> info.gkw.wp@gmail.com </h2>
-        </div>
-    </div><!-- end row -->     
 
-          
-    <div class="row">
-        <div class="col-sm-8 d-flex justify-content-center">
-            <img class="icons" src="<?php bloginfo('template_url');?>/img/icons/phone.png">
-        </div>   
 
-        <div class="col-sm-4 d-flex justify-content-center">
-            <h2> ###-###-####</h2>
-        </div>    
-            
-    </div><!-- end row -->   
+<div class="icon-text-container">
+    <img class="icons" src="<?php bloginfo('template_url'); ?>/img/icons/phone.png">
+    <h2> ###-###-####</h2>
+</div>
 
-    <div class="row">
-        <div class="col-sm-8 d-flex justify-content-center">
-            <h2>Have ideas? Send them to Us!</h2>
-        </div>
-    </div><!-- end row -->  
 
-    <div class="row">
-        <div class="col-sm-4 d-flex justify-content-center">
-            <button type="button" class="btn btn-primary btn-lg">Send Ideas</button>
-        </div>
-    </div> <!-- end row -->
 
-</div><!--end container-->
+<div class="icon-text-container">
+    <h2>Have ideas? Send them to Us!</h2>
+    <button type="button" class="btn btn-primary btn-lg">Send Ideas</button>
+</div>
+
 
 <?php get_footer(); ?>
