@@ -4,9 +4,13 @@
  */
 .icon-text-container{
     text-align: center;
-    padding: 10px;
+    padding: 2rem;
 }
 
+.row1{
+    display:flex;
+    justify-content: space-evenly;
+}
 
 .icons{
     width: 6rem;
@@ -21,4 +25,4 @@
     border-radius: 2.3rem;
 }
 
- //Media Queries
+ 
