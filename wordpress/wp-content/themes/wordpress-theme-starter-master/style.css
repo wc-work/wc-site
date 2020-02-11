@@ -77,10 +77,6 @@ nav {
   border: none;
 }
 
-a:hover {
-  color: #FDF8E1;
-}
-
 .nav-item {
   padding: 20px;
 }
@@ -121,6 +117,10 @@ a.nav-link {
 .blue {
   background-color: #5DA3B2;
   height: auto;
+  color: #FDF8E1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .footer-logo {
@@ -132,26 +132,27 @@ a.nav-link {
   font-size: 2rem;
 }
 
-.blue {
-  color: #FDF8E1;
-}
-
 .footertext {
   font-size: 1.6rem;
   margin-top: 3rem;
 }
 
 .social-media {
-  margin-left: 3rem;
-  margin-top: 3rem;
+  padding: 1.5rem;
+  color: #FDF8E1;
 }
 
-.social-media a {
-  color: white;
+.centered {
+  display: flex;
+  justify-content: center;
 }
 
-#insta {
-  margin-left: 13rem;
+#copyright {
+  text-align: center;
+}
+
+.social-media a:hover {
+  color: #EBBC4E;
 }
 
 .mov {

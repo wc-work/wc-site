@@ -5,6 +5,7 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     
+     
 }
 
 // NAVBAR
@@ -19,13 +20,10 @@ nav{
 .navbar-toggler{
     border: none;
 }
-// a.nav-link{
-//     text-decoration: none;
-//     color: $font-yellow;
+
+// a:hover{
+//     color: $font-white;
 // }
-a:hover{
-    color: $font-white;
-}
 .nav-item{
     padding: 20px;
 }
@@ -63,6 +61,10 @@ a.nav-link{
   .blue{
     background-color: $font-blue;
     height: auto;
+    color: $font-white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   .footer-logo{
     height: 7rem;
@@ -72,23 +74,26 @@ a.nav-link{
     color: $font-yellow;
     font-size: 2rem;
   }
-  .blue{
-      color: $font-white;
-  }
+
   .footertext{
       font-size: $font-size-base;
       margin-top: 3rem;
   }
   .social-media{
-      margin-left:3rem;
-      margin-top: 3rem;
+      padding: 1.5rem;
+      color: $font-white;
   }
-.social-media a{
-    color: white;
+
+.centered{
+    display: flex;
+    justify-content: center;
 }
-#insta{
-      margin-left: 13rem;
-  }
+#copyright{
+    text-align: center;
+}
+.social-media a:hover{
+    color: $font-yellow;
+}
 
 // VIDEO
 .mov{
