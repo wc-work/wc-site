@@ -1,30 +1,22 @@
 			<!-- footer -->
-			<footer class="grey">
-			<div class="row">
+	<footer class="grey container-fluid">
+		<div class="row">
 			
-  				<div class="col-4 d-flex flex-row">
-    				<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5">
+  			<div class="col-4 d-flex flex-row">
+    			<img src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="WebCrumbs alt logo. Digital toast with WC in the middle" class="footer-logo mt-5 ml-5">
 					
-  				</div>
-				  <div class="col-4">
-				  <p class="subscribe mt-5 text-center">Subscribe to our blog:</p>
+  					</div>
+			<div class="col-4">
+				<p class="subscribe mt-5 text-center">Subscribe to our blog:</p>
 				  	<form action="#" class="">
-						<!-- <input type="text" placeholder= "Enter your email..."> -->
 						<input class="form-control" type="text" placeholder="Enter your email...">
 				  	</form>
-				  </div>
-				  <div class="col-4">
+			</div>
+			<div class="col-4">
 				  
-				  </div>
+			</div>
  			
-					 
-			</footer>
-
-
-
-
-
-			<footer>
+			
 			<div class="container-fluid blue">
 				<div class="row col-lg-3">
 					<div class="col-xs col-md centered">
