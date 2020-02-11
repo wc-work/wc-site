@@ -15,15 +15,13 @@ nav{
     height: 8rem;
     color: $font-yellow;
     font-size: $font-size-base;
-    
+    z-index: 1;
 }
 .navbar-toggler{
     border: none;
 }
 
-// a:hover{
-//     color: $font-white;
-// }
+
 .nav-item{
     padding: 20px;
 }
@@ -91,7 +89,7 @@ a.nav-link{
 #copyright{
     text-align: center;
 }
-.social-media a:hover{
+.social-media:hover{
     color: $font-yellow;
 }
 

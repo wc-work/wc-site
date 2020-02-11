@@ -71,6 +71,7 @@ nav {
   height: 8rem;
   color: #EBBC4E;
   font-size: 1.6rem;
+  z-index: 1;
 }
 
 .navbar-toggler {
@@ -151,7 +152,7 @@ a.nav-link {
   text-align: center;
 }
 
-.social-media a:hover {
+.social-media:hover {
   color: #EBBC4E;
 }
 
