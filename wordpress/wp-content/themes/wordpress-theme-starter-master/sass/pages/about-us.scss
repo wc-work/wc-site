@@ -78,7 +78,7 @@ body {
   align-content: center;
 }
  
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   .container-fluid {
     display: flex;
     height: 20rem;
@@ -218,10 +218,10 @@ body {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
   .container-fluid {
     display: flex;
-    height: 50rem;
+    height: 51rem;
   }
   .box {
     margin: 20px;
@@ -357,7 +357,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .container-fluid {
     display: flex;
     height: 65rem;
