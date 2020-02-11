@@ -1,5 +1,5 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
@@ -21,4 +21,8 @@ html {
 
 // Pages
 @import "pages/home.scss";
+
+@import "pages/about-us.scss";
+
 @import "pages/contact-us.scss";
+
