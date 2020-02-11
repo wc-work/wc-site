@@ -61,7 +61,31 @@ html {
   height: 200px;
   background-color: tomato;
 }
+/**
+ * pages/contact-us
+ * ---
+ */
+.icon-text-container {
+  text-align: center;
+  padding: 2rem;
+}
 
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  width: 6rem;
+  height: 6rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 5rem;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  border-radius: 2.3rem;
+}
 body {
   font-family: "Noto Sans", sans-serif;
 }
