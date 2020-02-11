@@ -68,22 +68,14 @@ body {
 
 nav {
   background-color: #5DA3B2;
-  height: 6.25rem;
+  height: 8rem;
   color: #EBBC4E;
   font-size: 1.6rem;
+  z-index: 1;
 }
 
 .navbar-toggler {
   border: none;
-}
-
-a:link {
-  text-decoration: none;
-  color: #EBBC4E;
-}
-
-a:hover {
-  color: #FDF8E1;
 }
 
 .nav-item {
@@ -98,13 +90,74 @@ a.nav-link {
   color: #FDF8E1;
 }
 
-.navbar-brand {
-  font-size: 1.6rem;
+.logo {
+  width: 20rem;
+  height: 100%;
 }
 
 .navbar-toggler-icon {
   height: auto;
   width: auto;
+}
+
+.navcrumb {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0.8rem;
+}
+
+.navbar-collapse {
+  background-color: #5DA3B2;
+}
+
+.grey {
+  background-color: #2C2C2C;
+  height: 13rem;
+}
+
+.blue {
+  background-color: #5DA3B2;
+  height: auto;
+  color: #FDF8E1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer-logo {
+  height: 7rem;
+}
+
+.subscribe {
+  color: #EBBC4E;
+  font-size: 2rem;
+}
+
+.footertext {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.social-media {
+  padding: 1.5rem;
+  color: #FDF8E1;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.social-media:hover {
+  color: #EBBC4E;
+}
+
+.mov {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,26 +5,23 @@
 body{
     font-family: 'Noto Sans', sans-serif;
     
+     
 }
 
 // NAVBAR
+
 nav{
     background-color: $font-blue;
-    height: 6.25rem;
+    height: 8rem;
     color: $font-yellow;
     font-size: $font-size-base;
-    
+    z-index: 1;
 }
 .navbar-toggler{
     border: none;
 }
-a:link{
-    text-decoration: none;
-    color: $font-yellow;
-}
-a:hover{
-    color: $font-white;
-}
+
+
 .nav-item{
     padding: 20px;
 }
@@ -35,11 +32,68 @@ a.nav-link{
 .nav-link:hover{
     color: $font-white;
 }
-.navbar-brand{
-    font-size: $font-size-base;
+.logo{
+    width: 20rem;
+    height: 100%;
+    
 }
 
 .navbar-toggler-icon{
     height:auto;
     width: auto;
+}
+.navcrumb{
+    height: 2rem;
+    width: 2rem;
+    margin-top: .8rem;
+}
+.navbar-collapse{
+    background-color: $font-blue;
+}
+
+// FOOTER
+.grey{
+    background-color: $font-black;
+    height: 13rem;
+  }
+  .blue{
+    background-color: $font-blue;
+    height: auto;
+    color: $font-white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer-logo{
+    height: 7rem;
+      
+  }
+  .subscribe{
+    color: $font-yellow;
+    font-size: 2rem;
+  }
+
+  .footertext{
+      font-size: $font-size-base;
+      margin-top: 3rem;
+  }
+  .social-media{
+      padding: 1.5rem;
+      color: $font-white;
+  }
+
+.centered{
+    display: flex;
+    justify-content: center;
+}
+#copyright{
+    text-align: center;
+}
+.social-media:hover{
+    color: $font-yellow;
+}
+
+// VIDEO
+.mov{
+    overflow: hidden;
 }
