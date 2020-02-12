@@ -587,10 +587,10 @@ body {
 }
 
 .grid-temp {
-  display: grid;
+  display: inline-grid;
   position: relative;
-  grid-template-columns: auto repeat(5, 10rem) auto;
-  grid-template-rows: repeat(30, 3rem);
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(30, 4rem);
   height: 100%;
   width: 100%;
 }
