@@ -33,7 +33,8 @@
              <span> <img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="digital bread crumb"> </span>
             </button>
         <a class="navbar-brand" href="#">
-            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
+			<img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
         </a>
         <?php
         wp_nav_menu( array(
