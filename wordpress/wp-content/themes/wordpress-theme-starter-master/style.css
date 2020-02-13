@@ -15,6 +15,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 /**
  * modules/variables
  * ---
@@ -53,10 +57,6 @@ html {
  * partials/header
  * ---
  */
-body {
-  font-family: "Noto Sans", sans-serif;
-}
-
 nav {
   background-color: #5DA3B2;
   color: #EBBC4E;
