@@ -1,9 +1,9 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
- * {
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,5 +20,7 @@ html {
 @import "partials/footer";
 
 // Pages
-@import "pages/home.scss";
 @import "pages/contact-us.scss";
+@import "pages/about-us.scss";
+@import "pages/home.scss";
+@import "pages/process.scss";

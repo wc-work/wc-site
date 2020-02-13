@@ -5,7 +5,6 @@
  */
 get_header(); ?>
 
-
 <!--Contact Info Rows-->
 <div class="container-fluid">
     <div class="row row1">
@@ -38,5 +37,4 @@ get_header(); ?>
 
     </div> <!-- end row -->
 </div> <!-- end container -->
-
 <?php get_footer(); ?>
