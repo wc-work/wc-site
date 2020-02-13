@@ -30,7 +30,7 @@
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
+             <span> <img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="digital bread crumb"> </span>
             </button>
         <a class="navbar-brand" href="#">
             <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
