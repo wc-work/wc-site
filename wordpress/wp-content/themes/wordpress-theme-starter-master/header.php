@@ -21,22 +21,62 @@
 					tests: {}
 			});
 		</script>
+		<script src="https://kit.fontawesome.com/92ab37b888.js" crossorigin="anonymous"></script>
 
 	</head>
 	<body <?php body_class(); ?>>
+	
+	<nav class="navbar navbar-expand-md navbar-light" role="navigation">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+             <span> <img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="digital bread crumb"> </span>
+            </button>
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
+			<img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+        </a>
+        <?php
+        wp_nav_menu( array(
+            'theme_location'    => 'primary',
+            'depth'             => 2,
+            'container'         => 'div',
+            'container_class'   => 'collapse navbar-collapse',
+            'container_id'      => 'bs-example-navbar-collapse-1',
+            'menu_class'        => 'nav navbar-nav ml-auto',
+            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+            'walker'            => new WP_Bootstrap_Navwalker(),
+        ) );
+        ?>
+    </div>
+</nav>
+<?php
+// wp_nav_menu( array(
+//     'theme_location'  => 'primary',
+//     'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+//     'container'       => 'div',
+//     'container_class' => 'collapse navbar-collapse',
+//     'container_id'    => 'bs-example-navbar-collapse-1',
+//     'menu_class'      => 'navbar-nav mr-auto',
+//     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+//     'walker'          => new WP_Bootstrap_Navwalker(),
+// ) );
+?>
 
-		<!-- wrapper -->
-		<div class="wrapper">
 
-			<!-- header -->
-			<header class="header clear" role="banner">
-			
+
+
+
+
+
+
+
+
+
+
 				<!-- logo -->
 				<div class="logo">
-					<a href="<?php echo home_url(); ?>">
-						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-					</a>
+				
 				</div>
 				<!-- /logo -->
 
