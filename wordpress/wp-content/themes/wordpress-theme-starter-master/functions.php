@@ -155,7 +155,7 @@ function register_html5_menu()
 function register_navwalker_menu()
 {
     register_nav_menus( array(
-        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+        'primary' => __( 'Primary Menu', 'wordpress-theme-starter-master' ),
     ) );
 }
 
